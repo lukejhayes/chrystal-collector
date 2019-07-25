@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Guessing Game</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Barriecito|Bungee+Outline|Fascinate|Gloria+Hallelujah|Hanalei|Permanent+Marker&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bungee+Outline|Fascinate|Hanalei|Permanent+Marker&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+  <header class="header"> 
+      <p class="head">INSTRUCTIONS:</p>
+        <p>
+          There are three crystal buttons below.
+          By clicking on a crystal, you will add a specific amount of points
+          to your total score.
+
+          You win the game by matching your total score to the random number,
+          you lose the game if your total score goes above the random number.
+
+          The value of each crystal is hidden from you until you click it.
+
+          Each time the game starts, the game will change the values of each crystal.
+      </p>
+  </header>
+
+    <div class="wins-loses">
+    <div class="wins"> Wins: </div>
+    <div id="wins">0</div>
+    <div class="losses"> Losses: </div>
+    <div id="losses">0</div>
+
+  <div class="chrystals" id="root"></div>
+    </div>
+  <script src="index.js"></script>
+
+</body>
+</html>
